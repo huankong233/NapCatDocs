@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/NapNeko/NapCatQQ
+  image:
+      src: https://avatars.githubusercontent.com/u/165024194
+      alt: Logo
 
 features:
   - title: 开箱即用

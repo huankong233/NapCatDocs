@@ -1,8 +1,4 @@
-// import { createRequire } from 'module'
 import { defineConfig } from 'vitepress'
-
-// const require = createRequire(import.meta.url)
-// const pkg = require('vitepress/package.json')
 
 export const zhCN = defineConfig({
   lang: 'zh-CN',
@@ -83,6 +79,14 @@ function sidebarDevelop() {
     {
       text: '开发信息',
       items: [
+        {
+          text: '接口列表',
+          link: 'develop/api_list'
+        },
+        {
+          text: '接口列表[旧]',
+          link: 'develop/NapCat'
+        },
         {
           text: '扩展 API',
           link: 'develop/extends_api'
